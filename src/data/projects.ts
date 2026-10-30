@@ -13,14 +13,15 @@ export const projects: Project[] = [
         role: "Desarrollador principal",
         category: "Full Stack",
         featured: true,
-        technologies: [],
+        technologies: ["JavaScript", "React", "Node.js", "SQLite"],
         features: [
-            "Desarrollo de sistema de puntos de venta con submódulos de inventario, registro de ventas, usuarios por roles, estadísticas y reportes.",
+            "Desarrollo de sistema de puntos de venta con submódulos de inventario, historial de ventas, cuentas por cobrar y estadísticas.",
             "Implementación de lector de código de barras, impresión de tickets y respaldo de datos.",
+            "Implementación de un módulo de inicio de sesión para la gestión de usuarios por roles.",
             "Integración de activación de licencias con duración determinada por el sistema como función de suscripción.",
         ],
         contribution:
-            "Participé como desarrollador principal en la creación del sistema y la integración de módulos administrativos.",
+            "Actué como desarrollador principal en la creación del sistema de punto de venta como proyecto personal.",
     },
     {
         id: "water-management",
@@ -32,8 +33,8 @@ export const projects: Project[] = [
         organization: "Comité de Agua Potable San Gabriel",
         role: "Desarrollador principal",
         category: "Full Stack",
-        featured: true,
-        technologies: [],
+        featured: false,
+        technologies: ["Angular", "Firebase"],
         features: [
             "Gestión de usuarios: creación, edición y eliminación.",
             "Almacenamiento de información en la nube.",
@@ -54,7 +55,7 @@ export const projects: Project[] = [
         role: "Desarrollador Frontend",
         category: "Web",
         featured: false,
-        technologies: [],
+        technologies: ["React", "TypeScript", "TailwindCSS", "Hostinger"],
         features: [
             "Desarrollo de una página web corporativa.",
             "Creación de módulos personalizados para presentar proyectos.",
@@ -62,6 +63,7 @@ export const projects: Project[] = [
         ],
         contribution:
             "Desarrollé interfaces web y trabajé en la mejora visual de las pantallas existentes de una aplicación móvil.",
+        demo: "https://xiber-mex.vercel.app/",
     },
     {
         id: "minsait",
@@ -74,7 +76,7 @@ export const projects: Project[] = [
         role: "Product Owner",
         category: "Software",
         featured: false,
-        technologies: [],
+        technologies: ["Angular", "Spring Boot", "Bootstrap"],
         features: [
             "Administración de perfiles de vacantes.",
             "Publicación de perfiles de trabajo.",

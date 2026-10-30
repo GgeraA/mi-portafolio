@@ -11,9 +11,10 @@ export const experiences: Experience[] = [
     endDate: "2026-10",
     type: "Proyecto",
     summary:
-      "Desarrollo de un sistema de punto de venta con gestión de inventario, registro de ventas, usuarios y estadísticas",
+      "Desarrollo de un sistema de punto de venta con gestión de inventario, historial de ventas, cuentas por cobrar y estadísticas",
     responsibilities: [
       "Desarrollo de sistema de puntos de venta con submódulos de inventario, registro de ventas, usuarios por roles, estadísticas y reportes.",
+      "Implementación de módulos de incio de sesión para la gestión de usuarios por roles.",
       "Implementación de lector de código de barras, impresion de tickets y respaldo de datos.",
       "Integración de activación de licencias con duración determnada por el sistema como función de suscripción",
     ],
